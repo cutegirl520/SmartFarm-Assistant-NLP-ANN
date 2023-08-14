@@ -29,3 +29,11 @@ def trainIntentModel():
     y = dataset["Intent"]
 
     unique_intent_list = list(set(y))
+
+    print("Intent Dataset successfully loaded!")
+    
+    # Clean and prepare the intents corpus
+    queryCorpus = []
+    ps = PorterStemmer()
+
+    for query in X:
