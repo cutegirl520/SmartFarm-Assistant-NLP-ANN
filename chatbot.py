@@ -44,3 +44,6 @@ def trainIntentModel():
 
         # Lemmatizing
         tokenized_query = [ps.stem(word.lower()) for word in query]
+
+        # Recreate the sentence from tokens
+        tokenized_query = ' '.join(tokenized_query)
