@@ -66,3 +66,18 @@ def trainIntentModel():
     # Encode the intent classes
     labelencoder_intent = LabelEncoder()
     y = labelencoder_intent.fit_transform(y)
+    y = np_utils.to_categorical(y)
+    print("Encoded the intent classes!")
+    print(y)
+    
+    # Return a dictionary, mapping labels to their integer values
+    res = {}
+    for cl in labelencoder_intent.classes_:
+        res.update({cl:labelencoder_intent.transform([cl])[0]})
+
+    intent_label_map = res
+    print(intent_label_map)
+    print("Intent Label mapping obtained!")
+    
+    # Initialising the Aritifcial Neural Network
+    classifier = Sequential()
