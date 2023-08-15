@@ -95,3 +95,15 @@ def trainIntentModel():
     classifier.compile(optimizer = 'adam', loss = 'categorical_crossentropy', metrics = ['accuracy'])
     
     # Fitting the ANN to the Training set
+    classifier.fit(corpus, y, batch_size = 10, epochs = 500)
+    
+    return classifier, intent_label_map
+
+
+
+
+
+
+intent_model, intent_label_map = trainIntentModel()
+
+# Save the Intent model
