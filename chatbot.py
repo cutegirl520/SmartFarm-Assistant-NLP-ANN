@@ -55,3 +55,14 @@ def trainIntentModel():
     print("Corpus created")
     
     countVectorizer= CountVectorizer(max_features=800)
+    corpus = countVectorizer.fit_transform(queryCorpus).toarray()
+    print(corpus.shape)
+    print("Bag of words created!")
+    
+    # Save the CountVectorizer
+    pk.dump(countVectorizer, open("saved_state/IntentCountVectorizer.sav", 'wb'))
+    print("Intent CountVectorizer saved!")
+    
+    # Encode the intent classes
+    labelencoder_intent = LabelEncoder()
+    y = labelencoder_intent.fit_transform(y)
