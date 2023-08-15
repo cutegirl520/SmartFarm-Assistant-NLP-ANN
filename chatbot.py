@@ -117,3 +117,19 @@ def trainEntityModel():
     dataset = pd.read_csv('datasets/data-tags.csv', names=["word", "label"])
     X = dataset.iloc[:, :-1].values
     y = dataset.iloc[:, 1].values
+#     X = X.reshape(630,)
+    print(X)
+    print("Entity Dataset successfully loaded!")
+
+    entityCorpus=[]
+    ps = PorterStemmer()
+
+    # Stem words in X
+    for word in X.astype(str):
+        word = [ps.stem(word[0])]
+        entityCorpus.append(word)
+    
+    print(entityCorpus)
+    X = entityCorpus
+    from numpy import array
+    X = array(X)
