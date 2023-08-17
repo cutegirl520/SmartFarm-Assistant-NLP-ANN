@@ -148,3 +148,12 @@ def trainEntityModel():
     
     # Encoding categorical data of labels
     labelencoder_y = LabelEncoder()
+    y = labelencoder_y.fit_transform(y.astype(str))
+    print("Encoded the entity classes!")
+    
+    # Return a dict mapping labels to their integer values
+    res = {}
+    for cl in labelencoder_y.classes_:
+        res.update({cl:labelencoder_y.transform([cl])[0]})
+    entity_label_map = res
+    print("Entity Label mapping obtained!")
