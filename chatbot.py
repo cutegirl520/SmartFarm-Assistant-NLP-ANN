@@ -139,3 +139,12 @@ def trainEntityModel():
     from sklearn.feature_extraction.text import CountVectorizer
     cv = CountVectorizer(max_features=1500)
 #     X = cv.fit_transform(X.astype('U')).toarray()
+    X = cv.fit_transform(X).toarray()
+    print("Entity Bag of words created!")
+    
+    # Save CountVectorizer state
+    pk.dump(cv, open('saved_state/EntityCountVectorizer.sav', 'wb'))
+    print("Entity CountVectorizer state saved!")
+    
+    # Encoding categorical data of labels
+    labelencoder_y = LabelEncoder()
