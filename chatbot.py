@@ -157,3 +157,13 @@ def trainEntityModel():
         res.update({cl:labelencoder_y.transform([cl])[0]})
     entity_label_map = res
     print("Entity Label mapping obtained!")
+    
+    # Fit classifier to dataset
+    classifier = GaussianNB()
+    classifier.fit(X, y)
+    print("Entity Model trained successfully!")
+    
+    # Save the entity classifier model
+    pk.dump(classifier, open('saved_state/entity_model.sav', 'wb'))
+    print("Trained entity model saved!")
+    
