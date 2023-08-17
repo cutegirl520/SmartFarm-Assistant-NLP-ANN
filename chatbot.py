@@ -133,3 +133,9 @@ def trainEntityModel():
     X = entityCorpus
     from numpy import array
     X = array(X)
+    X = X.reshape(len(X),)
+    
+    # Create a bag of words model for words
+    from sklearn.feature_extraction.text import CountVectorizer
+    cv = CountVectorizer(max_features=1500)
+#     X = cv.fit_transform(X.astype('U')).toarray()
