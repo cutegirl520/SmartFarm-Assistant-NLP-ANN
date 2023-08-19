@@ -220,3 +220,15 @@ while True:
     # Lemmatizing
     ps = PorterStemmer()
     tokenized_query = [ps.stem(word.lower()) for word in query]
+
+    # Recreate the sentence from tokens
+    processed_text = ' '.join(tokenized_query)
+    
+    # Transform the query using the CountVectorizer
+    processed_text = loaded_intent_CV.transform([processed_text]).toarray()
+
+    # Make the prediction
+    predicted_Intent = loadedIntentClassifier.predict(processed_text)
+#     print(predicted_Intent)
+    result = np.argmax(predicted_Intent, axis=1)
+    
