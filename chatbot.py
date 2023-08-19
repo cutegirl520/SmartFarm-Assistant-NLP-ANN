@@ -202,3 +202,21 @@ import random
 
 with open('datasets/intents.json') as json_data:
     intents = json.load(json_data)
+
+# Load model to predict user result
+loadedIntentClassifier = load_model('saved_state/intent_model.h5')
+loaded_intent_CV = pk.load(open('saved_state/IntentCountVectorizer.sav', 'rb'))    
+
+USER_INTENT = ""
+
+while True:
+    user_query = input()
+    
+    query = re.sub('[^a-zA-Z]', ' ', user_query)
+
+    # Tokenize sentence
+    query = query.split(' ')
+
+    # Lemmatizing
+    ps = PorterStemmer()
+    tokenized_query = [ps.stem(word.lower()) for word in query]
