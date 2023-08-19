@@ -167,3 +167,14 @@ def trainEntityModel():
     pk.dump(classifier, open('saved_state/entity_model.sav', 'wb'))
     print("Trained entity model saved!")
     
+    return entity_label_map
+
+
+
+
+# Load Entity model
+entity_label_map = trainEntityModel()
+
+loadedEntityCV = pk.load(open('saved_state/EntityCountVectorizer.sav', 'rb'))
+loadedEntityClassifier = pk.load(open('saved_state/entity_model.sav', 'rb'))
+
