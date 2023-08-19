@@ -241,3 +241,11 @@ while True:
     for i in intents['intents']:
         if i['tag'] == USER_INTENT:
             print(random.choice(i['responses']))
+
+            
+    # Extract entities from text
+    entities = getEntities(tokenized_query)
+    
+    # Mapping between tokens and entity tags
+    token_entity_map = dict(zip(entities, tokenized_query))
+    # print(token_entity_map)
