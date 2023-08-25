@@ -14,4 +14,5 @@ for,SW
 wheat,CROP
 ?,.
 i,USR
-best,
+best,SW
+season,TIME
