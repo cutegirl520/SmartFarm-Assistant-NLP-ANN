@@ -81,4 +81,5 @@ maize,CROP
 which,SW
 fertilizer,FTLZ
 can,SW
-i,U
+i,USR
+use,S
