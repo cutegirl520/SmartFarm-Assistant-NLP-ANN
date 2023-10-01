@@ -133,4 +133,5 @@ days,TIME
 weather,WTR
 report,SW
 for,SW
-the
+the,SW
+day,TIME
