@@ -139,4 +139,6 @@ day,TIME
 will,SW
 it,SW
 rain,RAIN
-today,TIM
+today,TIME
+?,.
+is,SW
