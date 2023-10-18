@@ -230,4 +230,5 @@ of,SW
 wheat,CROP
 seeds,SEED
 .,.
-types,
+types,TYPE
+of,S
