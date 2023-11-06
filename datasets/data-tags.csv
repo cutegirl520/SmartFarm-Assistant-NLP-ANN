@@ -268,4 +268,5 @@ grow,CUL
 paddy,CROP
 .,.
 which,SW
-month,TI
+month,TIME
+to,SW
