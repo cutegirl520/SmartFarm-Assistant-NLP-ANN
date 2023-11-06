@@ -270,4 +270,5 @@ paddy,CROP
 which,SW
 month,TIME
 to,SW
-reap,R
+reap,REAP
+maize,CR
