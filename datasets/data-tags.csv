@@ -271,4 +271,6 @@ which,SW
 month,TIME
 to,SW
 reap,REAP
-maize,CR
+maize,CROP
+.,.
+cost
