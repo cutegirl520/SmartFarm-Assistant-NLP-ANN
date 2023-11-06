@@ -276,4 +276,5 @@ maize,CROP
 cost,COST
 of,SW
 sunflower,CROP
-seeds,SE
+seeds,SEED
+.,
