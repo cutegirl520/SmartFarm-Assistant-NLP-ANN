@@ -381,4 +381,6 @@ for,SW
 cotton,CROP
 ?,.
 which,SW
-season,T
+season,TIME
+to,SW
+g
