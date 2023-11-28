@@ -378,4 +378,6 @@ maize,CROP
 ideal,SW
 rainfall,RAIN
 for,SW
-cotton,C
+cotton,CROP
+?,.
+which,SW
