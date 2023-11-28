@@ -373,4 +373,5 @@ sugarcane,CROP
 when,TIME
 to,SW
 cultivate,CUL
-maize
+maize,CROP
+?,.
