@@ -384,4 +384,6 @@ which,SW
 season,TIME
 to,SW
 grow,CUL
-rice,CR
+rice,CROP
+in,SW
+?,.
