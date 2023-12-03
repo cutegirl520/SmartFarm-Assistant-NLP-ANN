@@ -394,4 +394,5 @@ rice,CROP
 production,YLD
 ?,.
 market,SW
-pri
+price,COST
+of
