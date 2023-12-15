@@ -426,4 +426,5 @@ paddy,CROP
 needs,SW
 high,ADJ
 rainfall,RAIN
-crops,
+crops,CROP
+does
