@@ -430,4 +430,5 @@ crops,CROP
 does,SW
 sugarcane,CROP
 grow,CUL
-in,S
+in,SW
+low,A
