@@ -491,4 +491,5 @@ for,SW
 rice,CROP
 rice,CROP
 seed,SEED
-quantity,
+quantity,QTY
+for,SW
