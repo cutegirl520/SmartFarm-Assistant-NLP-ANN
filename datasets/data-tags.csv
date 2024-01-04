@@ -512,4 +512,5 @@ sugarcane,CROP
 best,SW
 weather,WTR
 for,SW
-rice,
+rice,CROP
+which,SW
