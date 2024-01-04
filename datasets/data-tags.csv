@@ -521,4 +521,6 @@ rice,CROP
 variety,TYPE
 for,SW
 red,ADJ
-soil
+soil,SOIL
+?,.
+w
