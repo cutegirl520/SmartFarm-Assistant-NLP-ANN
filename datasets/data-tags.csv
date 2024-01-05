@@ -524,4 +524,5 @@ red,ADJ
 soil,SOIL
 ?,.
 which,SW
-maize,CR
+maize,CROP
+seed,SEED
