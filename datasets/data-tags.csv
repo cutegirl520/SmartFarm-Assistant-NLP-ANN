@@ -548,4 +548,6 @@ to,SW
 get,SW
 more,ADJ
 cotton,CROP
-yield,Y
+yield,YLD
+?,.
+c
