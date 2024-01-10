@@ -551,4 +551,5 @@ cotton,CROP
 yield,YLD
 ?,.
 cotton,CROP
-variety,
+variety,TYPE
+with,SW
