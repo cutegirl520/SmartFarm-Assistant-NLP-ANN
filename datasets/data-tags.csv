@@ -593,4 +593,5 @@ rainfall,RAIN
 for,SW
 sugarcane,CROP
 .,.
-weather
+weather,WTR
+this
