@@ -592,4 +592,5 @@ required,SW
 rainfall,RAIN
 for,SW
 sugarcane,CROP
-.
+.,.
+weather
