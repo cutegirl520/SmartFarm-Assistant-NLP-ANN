@@ -591,4 +591,5 @@ field,SW
 required,SW
 rainfall,RAIN
 for,SW
-sugarcan
+sugarcane,CROP
+.
