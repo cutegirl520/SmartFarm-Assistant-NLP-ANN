@@ -589,4 +589,5 @@ ragi,CROP
 field,SW
 ?,.
 required,SW
-rainfall,RA
+rainfall,RAIN
+for,S
