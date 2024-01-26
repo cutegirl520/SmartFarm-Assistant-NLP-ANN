@@ -600,4 +600,6 @@ week,TIME
 my,USR
 name,INT
 is,SW
-ram
+ram,NAME
+!,.
+hi,GRE
