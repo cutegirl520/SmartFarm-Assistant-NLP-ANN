@@ -598,4 +598,6 @@ this,SW
 week,TIME
 !,.
 my,USR
-nam
+name,INT
+is,SW
+ram
