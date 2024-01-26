@@ -602,4 +602,5 @@ name,INT
 is,SW
 ram,NAME
 !,.
-hi,GRE
+hi,GREET
+i,USR
