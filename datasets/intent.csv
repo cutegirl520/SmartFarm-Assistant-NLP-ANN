@@ -1,2 +1,10 @@
 
 Query,Intent
+Hello bot!,greeting
+Hi,greeting
+Hello!,greeting
+Hey there,greeting
+Hey,greeting
+Namaskar,greeting
+Namaste,greeting
+Bye,goodbye
