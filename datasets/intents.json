@@ -15,3 +15,17 @@
         {"tag": "hours",
          "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
          "responses": ["We're open every day 9am-9pm.", "Our hours are 9am-9pm every day."]
+        },
+        {"tag": "buy",
+         "patterns": ["how i can buy crops online?", "how i can buy crops from farmer?" ],
+         "responses": ["Please visit our website https://farmer.gov.in/"]
+        },
+        {"tag": "sell",
+         "patterns": ["how I can sell crops online?", "how I can sell my crops?", "best way to sell product?" , "how farmer can sell their product?"],
+         "responses": ["Please visit our website https://farmer.gov.in/"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm.", "Our hours are 9am-9pm every day."]
+        },
+        {"tag": "family",
