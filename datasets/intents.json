@@ -40,3 +40,11 @@
          "patterns": ["How are you?", "How you doing?", "How are you doing?","Are you doing well?", "Are you okay?" ,"Are you fine?","Are you doing okay?"],
          "responses": ["i'm cool.", "always cool.", "i'm ok.", "i'm fine."]
         },
+	{"tag": "enquireaboutday",
+         "patterns": ["How was your day?", "How is your day going?", "How is your day?"],
+         "responses": ["It's been great.", "It's been good."]
+        },
+	{"tag": "askinghelp",
+         "patterns": ["I need help!", "Need help!", "Help me please", "Help me", "Can you do something for me?", "Answer my question"],
+         "responses": ["i'm here to help you.", "i can help you.", "i'm here to solve your queries."]
+        },
