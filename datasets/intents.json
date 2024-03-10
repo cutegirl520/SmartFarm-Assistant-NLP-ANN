@@ -66,3 +66,11 @@
         },
 	{"tag": "wheatcondition",
          "patterns": ["which condition is suitable for wheat crop?", "which condition required for wheat crop?", "condition for wheat crop", "condition suitable for wheat", "condition for more wheat crop production", "which land is suitable for wheat crop"],
+         "responses": ["it needs 12 to 15 inches (31 to 38 centimeters) of water to produce a good crop.", "it needs a lot of sunshine, especially when the grains are filling.", "it grows best when the soil pH is between 6.0 and 7.0."]
+        },
+	{"tag": "bajraweather",
+         "patterns": ["which weather is suitable for bajra?", "what is temperature for bajra crop?", "bajra grows in which temperature?", "temperature for bajra", "temperature require for bajra crop?"],
+         "responses": ["Ideal temperature for bajra cultivation is between 20 oC to 30 oC.", "temperature is between 20 oC to 30 oC."]
+        },
+	{"tag": "bajracondition",
+         "patterns": ["which condition is suitable for bajra crop?", "which condition required for bajra crop?", "condition for bajra crop", "which land is suitable for bajra crop"],
