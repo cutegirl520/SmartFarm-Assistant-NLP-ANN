@@ -48,3 +48,10 @@
          "patterns": ["I need help!", "Need help!", "Help me please", "Help me", "Can you do something for me?", "Answer my question"],
          "responses": ["i'm here to help you.", "i can help you.", "i'm here to solve your queries."]
         },
+	{"tag": "outofscope",
+         "patterns": ["Who is the President?", "Who is the Prime Minister?", "What is my mother's name?", "Are you a supporter of BJP?", "Are you active in politics?"],
+         "responses": ["your question is out of my knowledge.", "i'm not able to answer your question.", "i don't have knowledge about that."]
+        },
+	{"tag": "cottonweather",
+         "patterns": ["which weather is suitable for cotton?", "what is temperature for cotton crop?", "cotton crop grows in which temperature?", "temprature for cotton ", "temperature require for cotton crop?"],
+         "responses": ["During active growth, the ideal air temperature is 70 to 100°F (21-37°C).", "ideal air temperature is 70 to 100°F.", "21-37°C temperature is required."]
