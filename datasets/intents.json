@@ -82,3 +82,19 @@
         },
 	{"tag": "sugercanecondition",
          "patterns": ["which condition is suitable for sugercane crop?", "which condition required for sugercane crop?", "condition for sugercane crop","condition suitable for sugercane"],
+         "responses": ["annual rainfall require between 75cm.", "It is a tropical as well as a subtropical crop.", "It grows well in hot and humid climate with a temperature of 21°C to 27°C"]
+        },
+	{"tag": "riceweather",
+         "patterns": ["which weather is suitable for rice?", "what is temperature for rice crop?", "rice grows in which temperature?","temperature for rice"],
+         "responses": ["The average temperature required throughout the life period of the crop ranges from 21 to 37º C.", "the average temperature is between 21 to 37ºC"]
+        },
+	{"tag": "ricecondition",
+         "patterns": ["which condition is suitable for rice crop?", "which condition required for rice crop?", "condition for rice crop","condition suitable for rice"],
+         "responses": ["Rice crop needs a hot and humid climate.","Rice grows on a variety of soils like silts, loams and gravels.", "It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water.", "The average temperature required throughout the life period of the crop ranges from 21 to 37º C."]
+        },
+	{"tag": "groundnutweather",
+         "patterns": ["which weather is suitable for groundnut?", "what is temperature for groundnut crop?", "groundnut grows in which temperature?","temperature for groundnut"],
+         "responses": ["It seems that plant will grow best when the mean temperature is from 21-26.5°C.", "It grows well with a temperature of 21°C to 26.5°C "]
+        },
+	{"tag": "groundnutcondition",
+         "patterns": ["which condition is suitable for groundnut crop?", "which condition required for groundnut crop?", "condition for groundnut crop","condition suitable for groundnut"],
