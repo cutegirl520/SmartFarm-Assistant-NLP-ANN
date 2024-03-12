@@ -111,3 +111,17 @@
 	{"tag": "maizeweather",
          "patterns": ["what is temperature for maize crop?", "maize grows in which temperature?", "temperature for maize"],
          "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A temperature of 21°C- 27°C is suitable for its cultivation."]
+        },
+	{"tag": "maizecondition",
+         "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
+         "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A 50-100cm rainfall is suitable for its cultivation.", "Alternate spells of rains and sunny weather are ideal for maize.", "It grows well in alluvial and red soils with good drainage."]
+        },
+	{"tag": "farmerscheme",
+         "patterns": ["Important government policies for farmer", "indian government scheme for indian farmer", "which scheme is most helpful to indian farmer"],
+         "responses": ["PM-Kisan Scheme,Pradhan Mantri Kisan Maandhan yojana,Pradhan Mantri Fasal Bima Yojana (PMFBY),Paramparagat Krishi Vikas Yojana (PKVY),etc.", "PM-Kisan Scheme,Pradhan Mantri Krishi Sinchai Yojana (PMKSY),etc.", "Pradhan Mantri Kisan Maandhan yojana, Pradhan Mantri Fasal Bima Yojana (PMFBY),etc. for more details please visit our website."]
+        },
+	{"tag": "farmerpmkisan",
+         "patterns": ["what is PM kisan scheme", "PM kisan", "which are benefits of PM kisan scheme?", "how PM kisan scheme is helpful to people?"],
+         "responses": ["Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a Central Sector scheme with 100% funding from Government of India. for more details visit pmkisan.gov.in", "please visit our website pmkisan.gov.in", "i request you to please visit our website pmkisan.gov.in", "Under the Scheme an income support of Rs. 6000/- per year is provided to all farmer families across the country in three equal installments of Rs. 2000/- each every four months."]
+        }
+   ]
