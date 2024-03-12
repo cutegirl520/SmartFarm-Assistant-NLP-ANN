@@ -98,3 +98,16 @@
         },
 	{"tag": "groundnutcondition",
          "patterns": ["which condition is suitable for groundnut crop?", "which condition required for groundnut crop?", "condition for groundnut crop","condition suitable for groundnut"],
+         "responses": ["it require well distributed rainfall at least 50 cm during growing season", "it grows in abundance of sunshine and relatively warm temperatures."]
+        },
+	{"tag": "marketprice",
+         "patterns": ["What is the market price of rice?", "How much is the cost of 10 kgs of wheat?", "What are the prices of sugarcane?"],
+         "responses": ["please visit our application.", "please visit our website for more detail.", "i request you to please visit our website."]
+        },
+	{"tag": "wassup",
+         "patterns": ["Wassup?", "What are you doing?", "What is up with you?", "What are you up to?", "How is it going?"],
+         "responses": ["i'm just chilling.", "i am enjoying day.", "i'm fine."]
+        },
+	{"tag": "maizeweather",
+         "patterns": ["what is temperature for maize crop?", "maize grows in which temperature?", "temperature for maize"],
+         "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A temperature of 21°C- 27°C is suitable for its cultivation."]
