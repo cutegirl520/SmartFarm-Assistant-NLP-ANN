@@ -1,2 +1,2 @@
 # SmartFarm-Assistant-NLP-ANN
-A chatbot
+A chatbot to assis
