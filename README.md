@@ -1,2 +1,2 @@
 # SmartFarm-Assistant-NLP-ANN
-A chatbot to assist with agriculture-related queries, built using Natural Language Processing (NLP) and Artificial Neural Networks (ANN). This project i
+A chatbot to assist with agriculture-related queries, built using Natural Language Processing (NLP) and Artificial Neural Networks (ANN). This project is currently 
